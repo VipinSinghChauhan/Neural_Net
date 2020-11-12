@@ -27,6 +27,11 @@ n1 = NeuralNet(inputs,4).calculate_output()
 n2 = NeuralNet(n1,5).calculate_output()
 n3 = NeuralNet(n2,1).calculate_output()
 
+print(inputs)
+print(n1)
+print(n2)
+print(n3)
+
 
 
         
